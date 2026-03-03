@@ -36,11 +36,7 @@ class AssemblyLineDemo
       
       //Calling the AssemblyLine contructor passing the input information as arguments
       AssemblyLine a1 = new AssemblyLine(name, manufacturedWidgets, rejectedWidgets);
-      
-      System.out.println(name);
-      System.out.println(manufacturedWidgets);
-      System.out.println(rejectedWidgets);
-      
+   
       return a1;
       
    }
